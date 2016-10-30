@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'LamDT <dangtunglam14@gmail.com>'
-SITENAME = u'HTX Coder - OutSource Developer, System Administrator, DevOps'
+AUTHOR = u'hxtcoder team <hxtcoder@ggooglegroups.com>'
+SITETITLE = u'HTX Coder - OutSource Developer, System Administrator, DevOps'
+SITENAME = 'HTX Coder'
 SITEURL = ''
+SITEDISCRIPTION = 'IT OutSourcing Service, Web/Mobile App development, System Administrator, DevOps'
 
 PATH = 'content'
 

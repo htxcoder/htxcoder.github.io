@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content=" {{ SITEDISCRIPTION }}">
+    <meta name="author" content="{{ AUTHOR }}">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAGYAAAAhAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAfgAAAIsAAAC/AAAAswAAAAAAAAAAAAAAAAAAAAAAAACIAAAAgAAAAAMAAAAAAAAAAAAAAAAAAAARAAAAtAAAAM8AAAAjAAAAMgAAAPwAAAA+AAAAAAAAAAAAAAAAAAAAIgAAAM0AAAC1AAAAEgAAAAAAAAAwAAAA3AAAAJsAAAAJAAAAAAAAAAAAAACeAAAAxgAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAmQAAAN0AAAAxAAAA7AAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAPMAAABRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeAAAA7gAAANsAAACWAAAABwAAAAAAAAAAAAAAAAAAAAAAAAB9AAAA1gAAAAUAAAAAAAAAAAAAAAAAAAAHAAAAlAAAAN4AAAATAAAAtgAAAMkAAAAfAAAAAAAAAAAAAAAAAAAACgAAAOIAAABlAAAAAAAAAAAAAAAeAAAAxwAAALgAAAAUAAAAAAAAAAIAAACCAAAA6QAAAD8AAAAAAAAAAAAAAAAAAABcAAAA5AAAAAoAAAA+AAAA6QAAAIQAAAADAAAAAAAAAAAAAAAAAAAAAAAAAE0AAAB9AAAAAAAAAAAAAAAAAAAAAgAAAMkAAAB4AAAAewAAAE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAcwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA8e8AAMDjAACA4QAADHAAABx4AAAeOAAADjAAAIcBAADHAwAA948AAP//AAD//wAA//8AAA==" rel="icon" type="image/x-icon">
+
+    <title>{{ SITETITLE }}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">{{ SITENAME }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,13 +53,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Dự án</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about">Giới thiệu</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#team">Thành viên</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Liên hệ</a>
                     </li>
                 </ul>
             </div>
@@ -71,11 +76,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" src="img/profile.png" alt="" width="25%">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Dịch vụ Outsourcing IT</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Web Developer - Web Designer - Mobile App Developer - System Administrator - DevOps</span>
                     </div>
                 </div>
             </div>
@@ -87,7 +92,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Dự án đã làm</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -96,7 +101,7 @@
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <span>Xem chi tiết</span>
                             </div>
                         </div>
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
@@ -106,7 +111,7 @@
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <span>Xem chi tiết</span>
                             </div>
                         </div>
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="">
@@ -116,7 +121,7 @@
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <span>Xem chi tiết</span>
                             </div>
                         </div>
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
@@ -126,7 +131,7 @@
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <span>Xem chi tiết</span>
                             </div>
                         </div>
                         <img src="img/portfolio/game.png" class="img-responsive" alt="">
@@ -136,7 +141,7 @@
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <span>Xem chi tiết</span>
                             </div>
                         </div>
                         <img src="img/portfolio/safe.png" class="img-responsive" alt="">
@@ -146,7 +151,7 @@
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <span>Xem chi tiết</span>
                             </div>
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
@@ -161,7 +166,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Giới thiệu</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -174,9 +179,39 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+                        <i class="fa fa-heart-o"></i> Thuê chúng tôi
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Grid Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Thành viên</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Grid Section -->
+    <section class="success" id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Kỹ năng</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+
             </div>
         </div>
     </section>
@@ -186,7 +221,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Liên hệ với chúng tôi</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -247,28 +282,25 @@
                             <br>Beverly Hills, CA 90210</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Liên kết</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Các kênh liên lạc khác</h3>
+                        <p>
+                          Skype: xxyyzz <br>
+                          Telegram: zzbbcc09
+                        </p>
                     </div>
                 </div>
             </div>
@@ -277,7 +309,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Hosted by <a href="https://github.com/htxcoder/htxcoder.github.io/tree/master" target="_blank">Github</a> |
+                        Theme <a href="https://startbootstrap.com/template-overviews/freelancer/" target="_blank">Freelancer</a>
                     </div>
                 </div>
             </div>
