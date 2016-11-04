@@ -78,4 +78,10 @@ DEVELOPERS = [
         'title': 'Frontend Developer'},
     {'name': 'Trần Mạnh Đồng', 'short_name': 'dongtm',
         'title': 'Designer'},
+    {'name': 'Vũ Đình Cường', 'short_name': 'cuongvd',
+        'title': 'Android Developer'},
+    {'name': 'Nguyễn Việt Hưng', 'short_name': 'hungnv',
+        'title': 'SysAdmin/DevOps'},
+    {'name': 'Đặng Nam Hùng', 'short_name': 'hungdn',
+        'title': 'PHP/Prestashop Developer'},
 ]
