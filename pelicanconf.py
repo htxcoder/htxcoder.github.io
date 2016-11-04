@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import markdown
+import codecs
+
 
 AUTHOR = u'hxtcoder team <hxtcoder@ggooglegroups.com>'
 SITETITLE = u'HTX Coder - OutSource Developer, System Administrator, DevOps'
 SITENAME = 'HTX Coder'
 SITEURL = ''
-SITEDISCRIPTION = 'IT OutSourcing Service, Web/Mobile App development, System Administrator, DevOps'
+SITEDISCRIPTION = 'IT OutSourcing Service, Web/Mobile App development, \
+                  System Administrator, DevOps'
 
 PATH = 'content'
 
@@ -42,4 +46,36 @@ EXTRA_PATH_METADATA = {
     'CNAME': {'path': 'CNAME'}
 }
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+
+def markdown_file_to_html(path):
+    """Converting markdown file to HTML string.
+
+     :param path:   string    Path to makrdown file.
+
+    """
+
+    input_file = codecs.open(path, mode="r", encoding="utf-8")
+    text = input_file.read()
+    return markdown.markdown(text)
+
+
+JINJA_FILTERS = {'markdown': markdown_file_to_html}
+
+PROJECTS = [
+    {'name': 'congtacvien', 'url': 'http://congtacvien.com.vn'},
+    {'name': 'tab-player', 'url': 'http://tab-player.com/'},
+    {'name': 'iseller', 'url': 'http://iseller.vn'},
+    {'name': 'zikathemes', 'url': 'https://themeforest.net/user/aztemplates'},
+    {'name': 'shipit', 'url': 'http://shipit.vn'},
+]
+
+DEVELOPERS = [
+    {'name': 'Đặng Tùng Lâm', 'short_name': 'lamdt',
+        'title': 'Backend Developer'},
+    {'name': 'Vũ Thế Dũng', 'short_name': 'dungvt',
+        'title': 'Frontend Developer'},
+    {'name': 'Trần Mạnh Đồng', 'short_name': 'dongtm',
+        'title': 'Designer'},
+]
