@@ -67,7 +67,9 @@ PROJECTS = [
     {'name': 'congtacvien', 'url': 'http://congtacvien.com.vn'},
     {'name': 'tab-player', 'url': 'http://tab-player.com/'},
     {'name': 'iseller', 'url': 'http://iseller.vn'},
-    {'name': 'zikathemes', 'url': 'https://themeforest.net/user/aztemplates'},
+    {'name': 'aztemplates', 'url': 'https://themeforest.net/user/aztemplates'},
+    {'name': 'miamor', 'url': 'http://miamor.vn'},
+    {'name': 'chuanamkhoa', 'url': 'http://chuanamkhoa.com'},
     {'name': 'shipit', 'url': 'http://shipit.vn'},
 ]
 
