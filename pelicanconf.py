@@ -6,7 +6,7 @@ import codecs
 
 
 AUTHOR = u'hxtcoder team <hxtcoder@ggooglegroups.com>'
-SITETITLE = u'HTX Coder - OutSource Developer, System Administrator, DevOps'
+SITETITLE = u'HTX Coder - OutSource Web Developer, App Developer, System Administrator, DevOps'
 SITENAME = 'HTX Coder'
 SITEURL = ''
 SITEDISCRIPTION = 'IT OutSourcing Service, Web/Mobile App development, \
