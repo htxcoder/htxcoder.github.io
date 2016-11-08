@@ -24,6 +24,7 @@ $(function() {
             $.ajax({
                 url: "//formspree.io/htxcoder@googlegroups.com",
                 type: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
