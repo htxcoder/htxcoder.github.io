@@ -61,14 +61,25 @@ def markdown_file_to_html(path):
     return markdown.markdown(text)
 
 
+TECH = [
+    'ruby', 'python', 'golang', 'php', 'saltstack', 'bash',
+    'css3', 'html5', 'javascript',
+    'mongo', 'mysql', 'postgresql', 'redis',
+    'android', 'ios', 'nginx', 'apache2', 'docker', 'git', 'jenkins',
+    'travis', 'letsencrypt', 'newrelic', 'sentry', 'rabbitmq', 'bootstrap'
+]
+
+
 JINJA_FILTERS = {'markdown': markdown_file_to_html}
 
 PROJECTS = [
     {'name': 'congtacvien', 'url': 'http://congtacvien.com.vn'},
+    {'name': 'pyjobs', 'url': 'http://pyjobs.vn/'},
     {'name': 'tab-player', 'url': 'http://tab-player.com/'},
-    {'name': 'iseller', 'url': 'http://iseller.vn'},
     {'name': 'aztemplates', 'url': 'https://themeforest.net/user/aztemplates'},
     {'name': 'miamor', 'url': 'http://miamor.vn'},
+    {'name': 'remember', 'url': 'https://goo.gl/a7E78i'},
+    {'name': 'iseller', 'url': 'http://iseller.vn'},
     {'name': 'chuanamkhoa', 'url': 'http://chuanamkhoa.com'},
     {'name': 'shipit', 'url': 'http://shipit.vn'},
 ]
