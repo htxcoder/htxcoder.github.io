@@ -82,6 +82,7 @@ PROJECTS = [
     {'name': 'iseller', 'url': 'http://iseller.vn'},
     {'name': 'chuanamkhoa', 'url': 'http://chuanamkhoa.com'},
     {'name': 'shipit', 'url': 'http://shipit.vn'},
+    {'name': 'your', 'url': '#contact'},
 ]
 
 DEVELOPERS = [
