@@ -1,0 +1,18 @@
+.thumbnail {
+  background-color: transparent;
+  border: none;
+  transition: none
+}
+
+.thumbnail .caption {
+  color: inherit;
+}
+
+.thumbnail .caption a{
+  color: inherit;
+  border-bottom: 1px dotted #fff;
+}
+
+.thumbnail .caption a:hover{
+  text-decoration: none;
+}
