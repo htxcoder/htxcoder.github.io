@@ -23,6 +23,10 @@
   margin-top: 40px
 }
 
+#about .thumbnail {
+  text-align: center;
+}
+
 #developer .developer-item {
   margin-top: 20px;
 }
