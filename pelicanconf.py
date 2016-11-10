@@ -81,7 +81,7 @@ PROJECTS = [
     {'name': 'remember', 'url': 'https://goo.gl/a7E78i'},
     {'name': 'iseller', 'url': 'http://iseller.vn'},
     {'name': 'chuanamkhoa', 'url': 'http://chuanamkhoa.com'},
-    {'name': 'shipit', 'url': 'http://shipit.vn'},
+    {'name': 'shipit', 'url': 'http://shop.shipit.vn'},
     {'name': 'your', 'url': '#contact'},
 ]
 
