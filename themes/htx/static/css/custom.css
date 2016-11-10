@@ -8,9 +8,14 @@
   color: inherit;
 }
 
-.thumbnail .caption a{
+.thumbnail .caption a {
   color: inherit;
   border-bottom: 1px dotted #fff;
+}
+
+.thumbnail .caption h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .thumbnail .caption a:hover{
