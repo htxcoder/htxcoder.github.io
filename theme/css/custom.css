@@ -16,3 +16,50 @@
 .thumbnail .caption a:hover{
   text-decoration: none;
 }
+
+#about #hiring-me p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px
+}
+
+#about .thumbnail {
+  text-align: center;
+}
+
+#developer .developer-item {
+  margin-top: 20px;
+}
+
+#developer .developer-item .developer-item-avt {
+  padding: 5px
+}
+
+#developer .developer-item .developer-item-avt img {
+  width: 150px;
+  height: 150px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#developer .developer-item .developer-item-name {
+  margin-top: 10px;
+}
+
+#developer .developer-item .developer-item-name strong {
+  color: #2C3E50;
+}
+
+#developer .developer-item .developer-item-name span {
+  color: #999;
+  font-size: 16px;
+}
+
+#tech .tech-item {
+  margin-top: 20px;
+}
+
+#tech .tech-item img{
+  width: 60px;
+  height: 60px;
+}
