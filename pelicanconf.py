@@ -39,7 +39,7 @@ DEFAULT_PAGINATION = 20
 
 THEME = 'themes/htx'
 
-STATIC_PATHS = ['img', 'CNAME', 'README.md']
+STATIC_PATHS = ['img', 'CNAME', 'README.md', 'robot.txt', 'sitemap.xml']
 
 EXTRA_PATH_METADATA = {
     'img': {'path': 'img'},
