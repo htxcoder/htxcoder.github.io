@@ -173,9 +173,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="hiring-me">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-          <p style="text-align: center; font-size: 20px; margin-top: 40px">Bạn chỉ việc lo kinh doanh, hãy để phần kỹ thuật cho chúng tôi.</p>
+          <p>Bạn chỉ việc lo kinh doanh, hãy để phần kỹ thuật cho chúng tôi.</p>
           <a href="#" class="btn btn-lg btn-outline">
             <i class="fa fa-heart-o"></i> Thuê chúng tôi
           </a>
@@ -192,16 +192,16 @@
           <hr class="star-primary">
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="developer">
         {% for developer in DEVELOPERS -%}
-        <div class="col-xs-6 col-md-4 developer-item text-center" style="margin-top: 20px;">
-          <a href="{{ developer.linkedin }}" target="_blank" class="" style="padding: 5px">
-            <img class="img-circle" src="img/developer/{{ developer.short_name }}.jpg" alt="HTXCoder - member {{ developer.short_name }}" width="150" height="150" style="-webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <div class="col-xs-6 col-md-4 developer-item text-center developer-item">
+          <a href="{{ developer.linkedin }}" target="_blank" class="developer-item-avt">
+            <img class="img-circle" src="img/developer/{{ developer.short_name }}.jpg" alt="HTXCoder - member {{ developer.short_name }}">
           </a>
-          <p style="margin-top: 10px">
-            <strong style="color: #2C3E50;">{{ developer.name }}</strong>
+          <p class="developer-item-name">
+            <strong>{{ developer.name }}</strong>
             <br>
-            <span style="color: #999; font-size: 16px">{{ developer.title }}</span>
+            <span>{{ developer.title }}</span>
           </p>
         </div>
         {%- endfor %}
@@ -218,11 +218,11 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="tech">
         {% for t in TECH -%}
-        <div class="col-xs-3 col-md-1 col-md-offset-1 developer-item" style="margin-top: 20px;">
+        <div class="col-xs-3 col-md-1 col-md-offset-1 tech-item">
           <center>
-            <img class="" src="img/tech/{{ t }}.png" alt="HTXCoder - technology {{ t }}" width="60" height="60">
+            <img class="" src="img/tech/{{ t }}.png" alt="HTXCoder - technology {{ t }}">
           </center>
         </div>
         {%- endfor %}
