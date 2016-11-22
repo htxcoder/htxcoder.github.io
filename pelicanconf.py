@@ -11,6 +11,7 @@ SITENAME = 'HTX Coder'
 SITEURL = ''
 SITEDISCRIPTION = 'IT OutSourcing Service, Web/Mobile App development, \
                   System Administrator, DevOps'
+CONTACT_EMAIL = 'htxcoder@googlegroups.com'
 
 PATH = 'content'
 
