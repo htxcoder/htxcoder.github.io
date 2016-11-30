@@ -75,6 +75,7 @@ JINJA_FILTERS = {'markdown': markdown_file_to_html}
 
 PROJECTS = [
     {'name': 'congtacvien', 'url': 'http://congtacvien.com.vn'},
+    {'name': 'pikabin', 'url': 'https://pikab.in'},
     {'name': 'pyjobs', 'url': 'http://pyjobs.vn/'},
     {'name': 'tab-player', 'url': 'http://tab-player.com/'},
     {'name': 'aztemplates', 'url': 'https://themeforest.net/user/aztemplates'},
